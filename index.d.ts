@@ -74,3 +74,4 @@ interface KeyboardAwareScrollViewProps extends KeyboardAwareProps, ScrollViewPro
 export class KeyboardAwareMixin {}
 export class KeyboardAwareListView extends React.Component<KeyboardAwareListViewProps, null> { }
 export class KeyboardAwareScrollView extends React.Component<KeyboardAwareScrollViewProps, null> { }
+export class AnimatedKeyboardAwareScrollView extends React.Component<KeyboardAwareScrollViewProps, null> { }
